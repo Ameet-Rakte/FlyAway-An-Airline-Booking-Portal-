@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Change Password</title>
+</head>
+<body>
+<h1 style="color:blue">FlyAway (An Airline Booking Portal)!! </h1>
+<h4 style="color:purple" align="right">Developer : Amit Rakte</h4><br><br><br>
+<h2 style="color:green">Change Password</h2><br>
+<p>1)Old Password should be correct<br>2)New Password and Old Password
+should not be same<br>3)Confirm Password should match New Password<br></p>
+<p style="color:red">Note:If any of the above confition fails then it will be considered as Invalid Credentials</p>
+<div style="border:2px solid green;width:25%;border-radius:20px;padding:20px" align="center">
+
+<form action="Change" method="post">
+<table >
+    <tr>
+    <td><label for=oldpassword>Enter Old Password:</label><br></td>
+    <td><input type="password" name="oldpassword"></td>
+    </tr>
+    <tr>
+    <td><label for=newpassword>Enter New Password</label><br></td>
+    <td><input type="password" name="newpassword"></td>
+    </tr>
+    <tr>
+    <td><label for=conpassword>Confirm New Password</label><br></td>
+    <td><input type="password" name="conpassword"</td>
+    </tr>
+    <tr>
+    <td><input type=submit name="cpass" value="Change Password" style="color:green" /></td>
+    <td><input type=reset style="color:red" /></td>
+    </tr>
+    </table>
+</form>
+</div><br>
+<button><a href="1.html" style="color:red">Cancel Process</a></button>
+</body>
+</html>

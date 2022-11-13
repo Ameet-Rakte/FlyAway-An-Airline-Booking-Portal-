@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Payment</title>
+</head>
+<body>
+<h1 style="color:blue">FlyAway (An Airline Booking Portal)!! </h1>
+<h4 style="color:purple" align="right">Developer : Amit Rakte</h4><br><br><br>
+
+<h2 style="color:green">Payment Gateway</h2><br>
+<div style="border:2px solid green;width:25%;border-radius:20px;padding:20px" align="center">
+
+<form align="center" action="PaySuccess" method="post">
+  <table >
+    <tr>
+    <td><label for=cardno>12-digit Card Number</label><br></td>
+    <td><input type="number" name="cardno"></td>
+    </tr>
+    <tr>
+    <td><label for=month>Month of expiry</label><br></td>
+    <td><input type="number" name="month"></td>
+    </tr>
+    <tr>
+    <td><label for=year>Year of expiry</label><br></td>
+    <td><input type="number" name="year"></td>
+    </tr>
+    <tr>
+    <td><label for=cvv>CVV(3 Digits)</label><br></td>
+    <td><input type="number" name="cvv"></td>
+    </tr>
+    <tr>
+    <td><label for=name1>Card Holder Name</label><br></td>
+    <td><input type="text" name="name1"></td>
+    </tr>
+    <tr>
+    <td><input type=submit value="Proceed for Payment" style="color:green" /></td>
+    <td><input type=reset style="color:red" /></td>
+    </tr>
+ </table>
+</form>
+</div>
+<h2><a href="booking.html" style="color:red">Back</a></h2>
+</body>
+</html>
